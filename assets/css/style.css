@@ -71,7 +71,7 @@ ul {
 p {
   font-size: 14px;
   line-height: 25px;
-  color: #7a7a7a;
+  color: #232d39;
 }
 
 /* 
@@ -259,7 +259,7 @@ header
   display: block;
   font-weight: 500;
   font-size: 13px;
-  color: #7a7a7a;
+  color: #232d39;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -565,16 +565,16 @@ banner
     z-index: -1;
 }
 
-#bg-video::-webkit-media-controls {
+/* #bg-video::-webkit-media-controls {
     display: none !important;
-}
+} */
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(35,45,57,0.8);
+    /* background-color: rgba(35,45,57,0.8); */
     top: 0;
     left: 0;
-    bottom: 7px;
+    bottom: 0px;
     width: 100%;
 }
 
@@ -610,6 +610,7 @@ banner
   font-style: normal;
   color: #c92e12;
   font-weight: 900;
+  margin-left: 0px;
 }
 
 
@@ -784,7 +785,7 @@ Our Classes
 }
 .tabs-content p {
   font-size: 14px;
-  color: #7a7a7a;
+  color: #232d39;
   margin-bottom: 28px;
 }
 
@@ -1006,7 +1007,7 @@ contact
 .contact-form select,
 .contact-form input,
 .contact-form textarea {
-  color: #7a7a7a;
+  color: #232d39;
   font-size: 13px;
   border: 1px solid #ddd;
   background-color: #fff;
@@ -1027,15 +1028,15 @@ contact
 }
 
 .contact-form ::-webkit-input-placeholder { /* Edge */
-  color: #7a7a7a;
+  color: #232d39;
 }
 
 .contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #7a7a7a;
+  color: #232d39;
 }
 
 .contact-form ::placeholder {
-  color: #7a7a7a;
+  color: #232d39;
 }
 
 .contact-form button {
@@ -1232,8 +1233,13 @@ responsive
     display: none;
   }
 
-  #logo{
-    
+  #gravty-brand{
+    left: 0px;
+    color: #c92e12;
+  }
+
+  #login{
+    border: none;
   }
 }
 
@@ -1313,5 +1319,17 @@ a:hover {
 }
 
 .down-content{
+  margin-top: 10px;
+}
+
+#sign-password{
+  margin-top: 10px;
+}
+
+/* #sign-email{
+  margin-top: 30px;
+} */
+
+#sign-checkbox{
   margin-top: 10px;
 }
